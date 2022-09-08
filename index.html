@@ -15,22 +15,24 @@
                 <nav>
                     <ul>
                         <li><a href="#news">Stories</a></li>
-                        <li><a href="#services">Company</a></li>
+                        <li class="tab-link" data-tab="tab-2"><a href="#services">Service</a></li>
                         <li><a href="#">About</a></li>
                         <li><a href="contact-us.html" target="_blank">Contact</a></li>
                     </ul>
                 </nav>
                 <div>
                     <p>+27 672 373 588</p>
-                    <button class="btn-green">button</button>
+                    <button
+                        onclick="window.location.href='https://api.whatsapp.com/send/?phone=27672373588&text=Hello+Please+Call+me+I+am+interested+one+of+your+cleaning+services&type=phone_number&app_absent=0';"
+                        class="btn-green">Please call</button>
                 </div>
             </header>
             <div class="sub-menu">
                 <ul class="tabs">
-                  <li class="tab-link current" data-tab="tab-1">Instagram</li>
-                  <!-- <li class="tab-link" data-tab="tab-2">Dribbble</li> -->
-                  <li class="tab-link" data-tab="tab-3">Twitter</li>
-                  <li class="tab-link" data-tab="tab-4">Facebook</li>
+                <li class="tab-link current" data-tab="tab-1">Bio</li>
+                <li class="tab-link" data-tab="tab-2">Company</li>
+                <li class="tab-link" data-tab="tab-3">About Us</li>
+                <!-- <li class="tab-link" data-tab="tab-4">Facebook</li> -->
                 </ul>
                 <div id="tab-1" class="tab-wrapper current">
                     <div class="text-wrapper">
@@ -43,15 +45,19 @@
                         </a>
                     </div>
                     <div class="img-wrapper">
-                        <img src="img/bg/bg-social-link-insta.jpg" alt="Image">
+                        <img src="img/bg/2.jpg" alt="Image">
                     </div>
                 </div>
                 <div id="tab-2" class="tab-wrapper">
                     <div class="text-wrapper">
-                        <h1 class="title">Dribbble's link</h1>
-                        <p class="info">We work hard to make sure our cleaners are top tier and that our customers are
-                            happy. If you are not completely
-                            satisfied, we’ll come re-clean your home, no questions asked.</p>
+                        <h1 class="title">Company</h1>
+                        <p class="info">Morubetsi Projects (PTY) LTD. Is a registered Privet Organization under CIPC, With 2 years in business
+                            Since our earliest days, Morubetsi Projects has put customer satisfaction at the forefront of our services. We give
+                            customers
+                            their precious time back by taking care of their everyday cleaning. You can live your life while we handle the
+                            details.
+                            This philosophy has allowed us to grow and become an integral part of our customers’ lives for 2 years.
+                        </p>
                         <a class="btn-blue" href="#">
                             <img src="img/svg/icon-arrow-right.svg" alt="Go">
                         </a>
@@ -62,10 +68,14 @@
                 </div>
                 <div id="tab-3" class="tab-wrapper">
                     <div class="text-wrapper">
-                        <h1 class="title">Twitter's link</h1>
-                        <p class="info">We work hard to make sure our cleaners are top tier and that our customers are
-                            happy. If you are not completely
-                            satisfied, we’ll come re-clean your home, no questions asked.</p>
+                        <h1 class="title">Morubetsi Projects<span></h1>
+                        <p class="info">Our mission is to deliver the finest cleaning services in Limpopo through the hiring and training of
+                            only the highest
+                            quality people available in our industry. We pledge to provide the most healthy and clean environment possible
+                            through
+                            the use of the industries finest green cleaning methods and best practices. Always we try to stay on the leading
+                            edge of
+                            cleaning technologies so we can deliver a clean and sanitized environment for our customers.</p>
                         <a class="btn-blue" href="#">
                             <img src="img/svg/icon-arrow-right.svg" alt="Go">
                         </a>
@@ -173,37 +183,48 @@
                 <h2 class="main-title">Happy Customers, Happy Homes</h2>
                 <div class="owl-carousel carousel-reviews owl-theme">
                     <div>
-                        <p class="main-info">Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the industry's standard dummy text ever since. Corporate social responsibility policymaker inclusion, resist; compassion mass incarceration correlation white paper. Program area energize optimism radical shared value policymaker milestones.</p>
+                        <p class="main-info">We are a local birth center and massage practice that just needs help keeping everything clean and
+                            tidy. Morubetsi goes
+                            above and beyond to make the environment clean and works hand and hand to keep our facility ready for all. If your
+                            looking for professional and trustworthy cleaning, look no further!</p>
                         <div class="author-wrapper">
                             <div class="img-wrapper">
-                                <img src="img/clients/photoA.jpg" alt="Mollie Jennings">
+                                <img src="img/clients/photoA.jpg" alt="Maroga Christina">
                             </div>
                             <div class="author">
-                                <p class="name">Mollie Jennings</p>
-                                <p class="position">Program area energize optimism radical shared value policymaker milestones.</p>
+                                <p class="name">Maroga Christina</p>
+                                <p class="position">Home Owner</p>
                             </div>
                         </div>
                     </div>
                     <div>
-                        <p class="main-info">Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the industry's standard dummy text ever since. Corporate social responsibility policymaker inclusion, resist; compassion mass incarceration correlation white paper. Program area energize optimism radical shared value policymaker milestones.</p>
+                        <p class="main-info">Advocate and his team are amazing! The work on my personal home, my office, and my rentals. They
+                            are
+                            always doing an
+                            amazing job!</p>
                         <div class="author-wrapper">
                             <div class="img-wrapper">
-                                <img src="img/clients/photoB.jpg" alt="Mollie Jennings">
+                                <img src="img/clients/photoB.jpg" alt="Makua Kgotso">
                             </div>
                             <div class="author">
-                                <p class="name">Mollie Jennings</p>
-                                <p class="position">Program area energize optimism radical shared value policymaker milestones.</p>
+                                <p class="name">Makua Kgotso</p>
+                                <p class="position">Owner</p>
                             </div>
                         </div>
                     </div>
                     <div>
-                        <p class="main-info">Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the industry's standard dummy text ever since. Corporate social responsibility policymaker inclusion, resist; compassion mass incarceration correlation white paper. Program area energize optimism radical shared value policymaker milestones.</p>
+                        <p class="main-info">We have had Morubetsi Projects to clean our home a couple of times. Each time has been spectacular!
+                            Each time we
+                            wonder why we don’t
+                            have it done regularly (still wondering I guess now that I think about it). Even though we clean regularly
+                            ourselves,
+                            every time we have them in, we undoubtedly walk in and can see smell and feel the difference!</p>
                         <div class="author-wrapper">
                             <div class="img-wrapper">
                                 <img src="img/clients/photoC.jpg" alt="Mollie Jennings">
                             </div>
                             <div class="author">
-                                <p class="name">Mollie Jennings</p>
+                                <p class="name">Nora Modipi</p>
                                 <p class="position">Program area energize optimism radical shared value policymaker milestones.</p>
                             </div>
                         </div>
@@ -242,7 +263,9 @@
                     <span class="badge">Welcome to</span>
                     <h2 class="main-title">Professional cleaning service</h2>
                     <p class="main-info">Our comprehensive cleaning services let you relax, unwind, and spend time doing the things you love.</p>
-                    <button class="btn-green">Call Back</button>
+                    <button class="btn-green"
+                        onclick="window.location.href='https://api.whatsapp.com/send/?phone=27672373588&text=Hello+Please+Call+me+I+am+interested+one+of+your+cleaning+services&type=phone_number&app_absent=0';">Call
+                        Back</button>
                 </div>
                 <div class="grid">
                     <div class="left">
@@ -261,7 +284,7 @@
         <div class="content">
             <h2 class="main-title">Choose you option</h2>
             <p class="main-info">What you get with every home cleaning...
-            Highly-skilled & friendly morubetsiprojects.co.za™ Home Service Professionals
+            Highly-skilled & friendly morubetsi.co.za™ Home Service Professionals
             Seamless communication & cash-free payments
             Heroic customer service via email, live chat and phone
             Fantastic discount for regular cleaning
@@ -271,7 +294,8 @@
                     <h2 class="main-title">Apartment cleaning</h2>
                     <p class="main-info">Get a high quality support service with us, We have dedicated support team waiting for your ticket.</p>
                     <div class="btn-wrapper">
-                        <button onclick="window.location.href='https://wa.me/message/BCOCZXEIHXAPP1';">Whatsapp</button>
+                        <button
+                            onclick="window.location.href='https://api.whatsapp.com/send/?phone=27672373588&text=Hello+My+nam+is+_______+,+i+have+Apartment+and+i+am+in+need+of+your+service&type=phone_number&app_absent=0';">Whatsapp</button>
                     </div>
                     <p class="pseudo-bg">01</p>
                 </div>
@@ -301,9 +325,11 @@
                 <p class="main-info">Looking for a fun place to work, with a flexible schedule and competitive pay? Then come join the Morubetsi Projects™!</p>
                 <div class="input-wrapper">
                     <input type="text" placeholder="E-mail">
+                    <a href="https://mrmaroga.com">
                     <button class="btn-blue">
+                        
                         <img src="img/svg/icon-arrow-right.svg" alt="Go">
-                    </button>
+                    </button></a>
                 </div>
                 <nav>
                     <ul>
@@ -341,4 +367,11 @@
 <script src="js/jquery.min.js"></script>
 <script src="js/owl.carousel.min.js"></script>
 <script src="js/main.js"></script>
+<!-- <script>
+    function recordData(data) {
+        console.log(data.ip, data.country)
+    }
+</script>
+<script src="https://ipinfo.io/json?callback=recordData"></script> -->
+
 </html>
